@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>alternative Farbcodierung</title>
+
+    <style>
+        
+        :root {
+            --color-base: 100;
+        }
+        
+        
+        .wrapper {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+
+        .color-card {
+            width: 100px;
+            height: 100px;
+            /*            background: #000;*/
+            margin: 10px;
+            border: 1px solid #000;
+        }
+
+
+        .red {
+            background: red;
+            background: rgb(255, 128, 0);
+        }
+
+        .deep-black {
+            background: #000;
+            background: black;
+            background: rgb(0, 30, 50);
+        }
+
+
+        .color-base {
+            background: rgb(90, 110, 120);
+            background: hsl(var(--color-base), 100%, 50%);
+        }
+
+        .light-grey {
+            background: hsl(var(--color-base), 10%, 90%);
+        }
+
+        .mid-grey {
+            background: hsl(var(--color-base), 10%, 60%);
+        }
+
+        .dark-grey {
+            background: hsl(var(--color-base), 10%, 30%);
+        }
+
+        .sub-black {
+            background: hsl(var(--color-base), 10%, 5%);
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <div class="color-card">
+        </div>
+
+        <div class="color-card red">
+        </div>
+
+        <div class="color-card deep-black">
+        </div>
+
+        <div class="color-card color-base">
+        </div>
+
+    </div>
+
+    <div class="wrapper">
+
+        <div class="color-card light-grey">
+        </div>
+
+        <div class="color-card mid-grey">
+        </div>
+
+        <div class="color-card dark-grey">
+        </div>
+
+        <div class="color-card sub-black">
+        </div>
+
+    </div>
+
+</body></html>
