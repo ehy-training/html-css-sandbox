@@ -13,6 +13,26 @@
         article header {
             background: green;
         }
+        
+
+        nav,
+        .container,
+        .main-footer {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .thema-a {
+            background: lightgrey;
+        }
+        
+                .thema-b {
+            background: lightblue;
+        }
+        
+                .thema-c {
+            background: purple;
+        }
 
     </style>
 
@@ -20,8 +40,10 @@
 
 <body>
 
-    <header>
+    <header class="main-header">
+        <div class="container">
         <h1>Semantisches HTML</h1>
+            </div>
     </header>
 
     <nav>
@@ -32,7 +54,9 @@
         <h2>Primäre Inhalte</h2>
 
 
-        <section>
+        <section class="thema-a">
+            
+        <div class="container">
             <h3>Thema A</h3>
             <article>
                 <header>
@@ -58,9 +82,10 @@
                     <p>Autor: Max Mustermann</p>
                 </footer>
             </article>
+            </div>
         </section>
 
-        <section>
+        <section class="thema-b">
             <h3>Thema B</h3>
             <article>
                 <h4>Beitrag 2</h4>
@@ -105,7 +130,7 @@
             </article>
         </section>
 
-        <section>
+        <section class="thema-c">
             <h3>Thema C</h3>
             <article>
                 <h4>Beitrag 4</h4>
@@ -134,7 +159,7 @@
         <h2>Sekundäre Inhalte</h2>
     </aside>
 
-    <footer>
+    <footer class="main-footer">
         <h2>Der Footer</h2>
     </footer>
 
