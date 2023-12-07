@@ -1,7 +1,7 @@
 # HTML/CSS Sandbox
 Einfache HTML und CSS Dokumente als begleitende Beispiele zu meinen Vorlesungen in diesem Themenbereich.
 
-------
+---
 
 Version: 1.1
 
